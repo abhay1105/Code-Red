@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5689142A9444B89D7B4F1AAA /* Pods_CodeRedSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80A497C20C9F52D9C6847EE9 /* Pods_CodeRedSwift.framework */; };
+		796ECA0F2867B324002F7B21 /* CodeRedSwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796ECA0E2867B324002F7B21 /* CodeRedSwiftApp.swift */; };
+		796ECA112867B324002F7B21 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796ECA102867B324002F7B21 /* ContentView.swift */; };
+		796ECA132867B327002F7B21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 796ECA122867B327002F7B21 /* Assets.xcassets */; };
+		796ECA162867B327002F7B21 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 796ECA152867B327002F7B21 /* Preview Assets.xcassets */; };
+		796ECA1D2867B3ED002F7B21 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 796ECA1C2867B3ED002F7B21 /* GoogleService-Info.plist */; };
+		796ECA312867B3F9002F7B21 /* ParaHospitalSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796ECA212867B3F9002F7B21 /* ParaHospitalSelect.swift */; };
+		796ECA322867B3F9002F7B21 /* ParaHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796ECA222867B3F9002F7B21 /* ParaHome.swift */; };
+		796ECA332867B3F9002F7B21 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796ECA242867B3F9002F7B21 /* Login.swift */; };
+		796ECA342867B3F9002F7B21 /* CitizenParaOnboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796ECA262867B3F9002F7B21 /* CitizenParaOnboarding.swift */; };
+		796ECA352867B3F9002F7B21 /* DoctorOnboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796ECA272867B3F9002F7B21 /* DoctorOnboarding.swift */; };
+		796ECA362867B3F9002F7B21 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796ECA282867B3F9002F7B21 /* Register.swift */; };
+		796ECA372867B3F9002F7B21 /* DoctorHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796ECA2A2867B3F9002F7B21 /* DoctorHome.swift */; };
+		796ECA382867B3F9002F7B21 /* DoctorAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796ECA2B2867B3F9002F7B21 /* DoctorAlert.swift */; };
+		796ECA392867B3F9002F7B21 /* CitizenRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796ECA2D2867B3F9002F7B21 /* CitizenRecord.swift */; };
+		796ECA3A2867B3F9002F7B21 /* CitizenHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796ECA2E2867B3F9002F7B21 /* CitizenHome.swift */; };
+		796ECA3B2867B3F9002F7B21 /* CitizenHospitalSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796ECA2F2867B3F9002F7B21 /* CitizenHospitalSelect.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10FD6DF7153F1E88E876FA31 /* Pods-CodeRedSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeRedSwift.debug.xcconfig"; path = "Target Support Files/Pods-CodeRedSwift/Pods-CodeRedSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		796ECA0B2867B324002F7B21 /* CodeRedSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeRedSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		796ECA0E2867B324002F7B21 /* CodeRedSwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeRedSwiftApp.swift; sourceTree = "<group>"; };
+		796ECA102867B324002F7B21 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		796ECA122867B327002F7B21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		796ECA152867B327002F7B21 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		796ECA1C2867B3ED002F7B21 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		796ECA212867B3F9002F7B21 /* ParaHospitalSelect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParaHospitalSelect.swift; sourceTree = "<group>"; };
+		796ECA222867B3F9002F7B21 /* ParaHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParaHome.swift; sourceTree = "<group>"; };
+		796ECA242867B3F9002F7B21 /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		796ECA262867B3F9002F7B21 /* CitizenParaOnboarding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CitizenParaOnboarding.swift; sourceTree = "<group>"; };
+		796ECA272867B3F9002F7B21 /* DoctorOnboarding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctorOnboarding.swift; sourceTree = "<group>"; };
+		796ECA282867B3F9002F7B21 /* Register.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Register.swift; sourceTree = "<group>"; };
+		796ECA2A2867B3F9002F7B21 /* DoctorHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctorHome.swift; sourceTree = "<group>"; };
+		796ECA2B2867B3F9002F7B21 /* DoctorAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoctorAlert.swift; sourceTree = "<group>"; };
+		796ECA2D2867B3F9002F7B21 /* CitizenRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CitizenRecord.swift; sourceTree = "<group>"; };
+		796ECA2E2867B3F9002F7B21 /* CitizenHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CitizenHome.swift; sourceTree = "<group>"; };
+		796ECA2F2867B3F9002F7B21 /* CitizenHospitalSelect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CitizenHospitalSelect.swift; sourceTree = "<group>"; };
+		80A497C20C9F52D9C6847EE9 /* Pods_CodeRedSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodeRedSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89495D65577A4D559403A2DE /* Pods-CodeRedSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeRedSwift.release.xcconfig"; path = "Target Support Files/Pods-CodeRedSwift/Pods-CodeRedSwift.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		796ECA082867B324002F7B21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5689142A9444B89D7B4F1AAA /* Pods_CodeRedSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27780C2D1415D6595BFB10C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10FD6DF7153F1E88E876FA31 /* Pods-CodeRedSwift.debug.xcconfig */,
+				89495D65577A4D559403A2DE /* Pods-CodeRedSwift.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5178BCEF29A9B95872719301 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80A497C20C9F52D9C6847EE9 /* Pods_CodeRedSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		796ECA022867B324002F7B21 = {
+			isa = PBXGroup;
+			children = (
+				796ECA0D2867B324002F7B21 /* CodeRedSwift */,
+				796ECA0C2867B324002F7B21 /* Products */,
+				27780C2D1415D6595BFB10C7 /* Pods */,
+				5178BCEF29A9B95872719301 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		796ECA0C2867B324002F7B21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				796ECA0B2867B324002F7B21 /* CodeRedSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		796ECA0D2867B324002F7B21 /* CodeRedSwift */ = {
+			isa = PBXGroup;
+			children = (
+				796ECA0E2867B324002F7B21 /* CodeRedSwiftApp.swift */,
+				796ECA102867B324002F7B21 /* ContentView.swift */,
+				796ECA1E2867B3F9002F7B21 /* Views */,
+				796ECA122867B327002F7B21 /* Assets.xcassets */,
+				796ECA1C2867B3ED002F7B21 /* GoogleService-Info.plist */,
+				796ECA142867B327002F7B21 /* Preview Content */,
+			);
+			path = CodeRedSwift;
+			sourceTree = "<group>";
+		};
+		796ECA142867B327002F7B21 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				796ECA152867B327002F7B21 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		796ECA1E2867B3F9002F7B21 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				796ECA1F2867B3F9002F7B21 /* Screens */,
+				796ECA302867B3F9002F7B21 /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		796ECA1F2867B3F9002F7B21 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				796ECA202867B3F9002F7B21 /* ParaScreens */,
+				796ECA232867B3F9002F7B21 /* InitialScreens */,
+				796ECA292867B3F9002F7B21 /* DoctorScreens */,
+				796ECA2C2867B3F9002F7B21 /* CitizenScreens */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		796ECA202867B3F9002F7B21 /* ParaScreens */ = {
+			isa = PBXGroup;
+			children = (
+				796ECA212867B3F9002F7B21 /* ParaHospitalSelect.swift */,
+				796ECA222867B3F9002F7B21 /* ParaHome.swift */,
+			);
+			path = ParaScreens;
+			sourceTree = "<group>";
+		};
+		796ECA232867B3F9002F7B21 /* InitialScreens */ = {
+			isa = PBXGroup;
+			children = (
+				796ECA242867B3F9002F7B21 /* Login.swift */,
+				796ECA252867B3F9002F7B21 /* OnboardingScreens */,
+				796ECA282867B3F9002F7B21 /* Register.swift */,
+			);
+			path = InitialScreens;
+			sourceTree = "<group>";
+		};
+		796ECA252867B3F9002F7B21 /* OnboardingScreens */ = {
+			isa = PBXGroup;
+			children = (
+				796ECA262867B3F9002F7B21 /* CitizenParaOnboarding.swift */,
+				796ECA272867B3F9002F7B21 /* DoctorOnboarding.swift */,
+			);
+			path = OnboardingScreens;
+			sourceTree = "<group>";
+		};
+		796ECA292867B3F9002F7B21 /* DoctorScreens */ = {
+			isa = PBXGroup;
+			children = (
+				796ECA2A2867B3F9002F7B21 /* DoctorHome.swift */,
+				796ECA2B2867B3F9002F7B21 /* DoctorAlert.swift */,
+			);
+			path = DoctorScreens;
+			sourceTree = "<group>";
+		};
+		796ECA2C2867B3F9002F7B21 /* CitizenScreens */ = {
+			isa = PBXGroup;
+			children = (
+				796ECA2D2867B3F9002F7B21 /* CitizenRecord.swift */,
+				796ECA2E2867B3F9002F7B21 /* CitizenHome.swift */,
+				796ECA2F2867B3F9002F7B21 /* CitizenHospitalSelect.swift */,
+			);
+			path = CitizenScreens;
+			sourceTree = "<group>";
+		};
+		796ECA302867B3F9002F7B21 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		796ECA0A2867B324002F7B21 /* CodeRedSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 796ECA192867B327002F7B21 /* Build configuration list for PBXNativeTarget "CodeRedSwift" */;
+			buildPhases = (
+				4574EA23C8DCE50E8A84263C /* [CP] Check Pods Manifest.lock */,
+				796ECA072867B324002F7B21 /* Sources */,
+				796ECA082867B324002F7B21 /* Frameworks */,
+				796ECA092867B324002F7B21 /* Resources */,
+				BACB27D34071462F76A6D184 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodeRedSwift;
+			productName = CodeRedSwift;
+			productReference = 796ECA0B2867B324002F7B21 /* CodeRedSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		796ECA032867B324002F7B21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					796ECA0A2867B324002F7B21 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 796ECA062867B324002F7B21 /* Build configuration list for PBXProject "CodeRedSwift" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 796ECA022867B324002F7B21;
+			productRefGroup = 796ECA0C2867B324002F7B21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				796ECA0A2867B324002F7B21 /* CodeRedSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		796ECA092867B324002F7B21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				796ECA162867B327002F7B21 /* Preview Assets.xcassets in Resources */,
+				796ECA132867B327002F7B21 /* Assets.xcassets in Resources */,
+				796ECA1D2867B3ED002F7B21 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4574EA23C8DCE50E8A84263C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CodeRedSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BACB27D34071462F76A6D184 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CodeRedSwift/Pods-CodeRedSwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CodeRedSwift/Pods-CodeRedSwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CodeRedSwift/Pods-CodeRedSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		796ECA072867B324002F7B21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				796ECA312867B3F9002F7B21 /* ParaHospitalSelect.swift in Sources */,
+				796ECA332867B3F9002F7B21 /* Login.swift in Sources */,
+				796ECA352867B3F9002F7B21 /* DoctorOnboarding.swift in Sources */,
+				796ECA392867B3F9002F7B21 /* CitizenRecord.swift in Sources */,
+				796ECA382867B3F9002F7B21 /* DoctorAlert.swift in Sources */,
+				796ECA112867B324002F7B21 /* ContentView.swift in Sources */,
+				796ECA322867B3F9002F7B21 /* ParaHome.swift in Sources */,
+				796ECA3A2867B3F9002F7B21 /* CitizenHome.swift in Sources */,
+				796ECA0F2867B324002F7B21 /* CodeRedSwiftApp.swift in Sources */,
+				796ECA362867B3F9002F7B21 /* Register.swift in Sources */,
+				796ECA372867B3F9002F7B21 /* DoctorHome.swift in Sources */,
+				796ECA3B2867B3F9002F7B21 /* CitizenHospitalSelect.swift in Sources */,
+				796ECA342867B3F9002F7B21 /* CitizenParaOnboarding.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		796ECA172867B327002F7B21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		796ECA182867B327002F7B21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		796ECA1A2867B327002F7B21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10FD6DF7153F1E88E876FA31 /* Pods-CodeRedSwift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CodeRedSwift/Preview Content\"";
+				DEVELOPMENT_TEAM = 8M63C4QQ49;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abhaypaidipalli.CodeRedSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		796ECA1B2867B327002F7B21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89495D65577A4D559403A2DE /* Pods-CodeRedSwift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CodeRedSwift/Preview Content\"";
+				DEVELOPMENT_TEAM = 8M63C4QQ49;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abhaypaidipalli.CodeRedSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		796ECA062867B324002F7B21 /* Build configuration list for PBXProject "CodeRedSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				796ECA172867B327002F7B21 /* Debug */,
+				796ECA182867B327002F7B21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		796ECA192867B327002F7B21 /* Build configuration list for PBXNativeTarget "CodeRedSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				796ECA1A2867B327002F7B21 /* Debug */,
+				796ECA1B2867B327002F7B21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 796ECA032867B324002F7B21 /* Project object */;
+}
