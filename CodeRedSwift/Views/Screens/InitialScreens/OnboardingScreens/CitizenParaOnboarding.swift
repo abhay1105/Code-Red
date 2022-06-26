@@ -8,9 +8,9 @@
 import SwiftUI
 
 struct CitizenParaOnboarding: View {
-    @ObservedObject var signUpViewModel : SignUpViewModel
+    @ObservedObject var signUpViewModel: SignUpViewModel
     
-    init(suvm : SignUpViewModel) {
+    init(suvm: SignUpViewModel) {
         signUpViewModel = suvm
     }
     var body: some View {

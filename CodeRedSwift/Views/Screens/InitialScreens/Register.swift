@@ -162,9 +162,12 @@ final class SignUpViewModel: ObservableObject {
     @Published var role = ""
     @Published var alert = false
     @Published var error = ""
+    @Published var hospital_code = ""
+    @Published var phone_number = ""
+    @Published var specialization_list = ""
     let db = Firestore.firestore()
     
-    func register(){
+    func register() {
         if self.email != ""{
             if self.pass == self.repass{
                 Auth.auth().createUser(withEmail: self.email, password: self.pass) { [self]
@@ -198,6 +201,9 @@ final class SignUpViewModel: ObservableObject {
                         db.collection("doctors").document(Auth.auth().currentUser?.uid ?? "").setData([
                             "email": self.email,
                             "full_name": self.full_name,
+                            "phone_number": self.phone_number,
+                            "hospital_code": self.hospital_code,
+                            "specialization_list": self.specialization_list,
                         ]) { err in
                             if let err = err {
                                 print("Error writing document: \(err)")
