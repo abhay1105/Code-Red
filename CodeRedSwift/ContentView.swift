@@ -14,7 +14,7 @@ struct ContentView: View {
     var body: some View {
             VStack{
                 if self.status{
-                    NavigationView {
+                   // NavigationView {
                         VStack {
                             MainView()
                             
@@ -28,7 +28,7 @@ struct ContentView: View {
                                 Text("Log Out")
                             }
                         }
-                    }
+                    //}
                 } else {
                     NavigationView {
                         VStack{

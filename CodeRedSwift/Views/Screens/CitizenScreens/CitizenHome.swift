@@ -9,9 +9,26 @@ import SwiftUI
 import YouTubePlayerKit
 
 struct CitizenHome: View {
+    @State var showingDetail = false
     var body: some View {
         VStack {
-            Text("Hello, John Doe!")
+            Button(action: {
+                self.showingDetail.toggle()
+            }, label: {
+                Text("Report Emergency")
+                    .foregroundColor(.black)
+                    .padding(.vertical)
+                    .frame(width: UIScreen.main.bounds.width - 50)
+            })
+            .background(Color.red)
+            .cornerRadius(50)
+            .padding(.top, 25)
+            .sheet(isPresented: $showingDetail) {
+                AudioContentView()
+            }
+    
+           
+            Text("Hello, Soham Gupta!")
                 .font(.system(size: 40))
                 .fontWeight(.bold)
                 .padding()

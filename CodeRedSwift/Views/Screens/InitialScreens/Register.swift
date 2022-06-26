@@ -200,7 +200,7 @@ final class SignUpViewModel: ObservableObject {
                     } else if role == "Doctor" {
                         // add the user to the users section of the database
                         print("WE ARE GETTING HERE")
-                        db.collection("doctors").document(Auth.auth().currentUser?.uid ?? "").setData([
+                        db.collection("hospitaldoctor").document(Auth.auth().currentUser?.uid ?? "").setData([
                             "email": self.email,
                             "full_name": self.full_name,
                             "phone_number": self.phone_number,
