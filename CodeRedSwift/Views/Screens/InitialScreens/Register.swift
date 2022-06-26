@@ -164,7 +164,7 @@ final class SignUpViewModel: ObservableObject {
     @Published var error = ""
     @Published var hospital_code = ""
     @Published var phone_number = ""
-    @Published var specialization_list = ""
+    @Published var specialization_list : [String] = []
     let db = Firestore.firestore()
     
     func register() {
@@ -192,18 +192,20 @@ final class SignUpViewModel: ObservableObject {
                             if let err = err {
                                 print("Error writing document: \(err)")
                             } else {
+                                print(self.specialization_list)
                                 print("Document successfully written!")
                             }
                         }
                         
                     } else if role == "Doctor" {
                         // add the user to the users section of the database
+                        print("WE ARE GETTING HERE")
                         db.collection("doctors").document(Auth.auth().currentUser?.uid ?? "").setData([
                             "email": self.email,
                             "full_name": self.full_name,
                             "phone_number": self.phone_number,
                             "hospital_code": self.hospital_code,
-                            "specialization_list": self.specialization_list,
+                            "specialization_list": self.specialization_list
                         ]) { err in
                             if let err = err {
                                 print("Error writing document: \(err)")

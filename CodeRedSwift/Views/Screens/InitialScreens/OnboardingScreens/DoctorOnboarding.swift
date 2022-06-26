@@ -10,10 +10,11 @@ import SwiftUI
 struct DoctorOnboarding: View {
     
     @ObservedObject var signUpViewModel: SignUpViewModel
-    var multi_select: MultipleSelectionList = MultipleSelectionList()
+    var multi_select: MultipleSelectionList
     
     init(suvm: SignUpViewModel) {
         signUpViewModel = suvm
+        multi_select = MultipleSelectionList(signUpViewModel: suvm)
     }
     
     var body: some View {
@@ -41,15 +42,6 @@ struct DoctorOnboarding: View {
         }
         
         Button(action: {
-            var tempList = ""
-            for index in 0..<multi_select.$selections.count {
-                if index != multi_select.selections.count - 1 {
-                    tempList = tempList + "\(multi_select.selections[index]),"
-                } else {
-                    tempList = tempList + "\(multi_select.selections[index])"
-                }
-            }
-            signUpViewModel.specialization_list = tempList
             signUpViewModel.register()
         }, label: {
             Text("Done")
@@ -61,16 +53,18 @@ struct DoctorOnboarding: View {
 struct MultipleSelectionList: View {
     @State var items: [String] = ["Cardiologist", "Pediatrician", "Surgeon", "Orthopedic", "Neurologist", "Anesthesiologist", "Optometrist"]
     @State var selections: [String] = []
-
+    @ObservedObject var signUpViewModel : SignUpViewModel
     var body: some View {
         List {
             ForEach(self.items, id: \.self) { item in
                 MultipleSelectionRow(title: item, isSelected: self.selections.contains(item)) {
                     if self.selections.contains(item) {
                         self.selections.removeAll(where: { $0 == item })
+                        signUpViewModel.specialization_list.removeAll(where: { $0 == item })
                     }
                     else {
                         self.selections.append(item)
+                        signUpViewModel.specialization_list.append(item)
                     }
                 }
             }

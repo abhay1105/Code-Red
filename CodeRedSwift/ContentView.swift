@@ -10,12 +10,13 @@ import FirebaseAuth
 struct ContentView: View {
     @State var show = false
     @State var status = UserDefaults.standard.value(forKey: "status") as? Bool ?? false
+    
     var body: some View {
             VStack{
                 if self.status{
                     NavigationView {
                         VStack {
-                            Text("Logged in")
+                            MainView()
                             
                             Button(action:{
                                 try! Auth.auth().signOut()

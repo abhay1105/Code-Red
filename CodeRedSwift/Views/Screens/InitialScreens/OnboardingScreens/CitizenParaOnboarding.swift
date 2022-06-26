@@ -12,6 +12,7 @@ struct CitizenParaOnboarding: View {
     
     init(suvm: SignUpViewModel) {
         signUpViewModel = suvm
+        suvm.register()
     }
     var body: some View {
         VStack {

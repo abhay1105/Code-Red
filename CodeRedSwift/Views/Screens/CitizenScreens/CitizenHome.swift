@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct CitizenHomeScreen: View {
+struct CitizenHome: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("Hello, Citizen")
     }
 }
 
-struct CitizenHomeScreen_Previews: PreviewProvider {
+struct CitizenHome_Previews: PreviewProvider {
     static var previews: some View {
-        CitizenHomeScreen()
+        CitizenHome()
     }
 }

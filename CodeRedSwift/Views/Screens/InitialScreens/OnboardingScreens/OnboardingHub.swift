@@ -12,12 +12,11 @@ struct OnboardingHub: View {
     
     init(suvm : SignUpViewModel) {
         signUpViewModel = suvm
+        if suvm.role == "Citizen" || suvm.role == "Paramedic" {
+            suvm.register()
+        }
     }
     var body: some View {
-        if signUpViewModel.role == "Citizen" || signUpViewModel.role == "Paramedic"  {
-            CitizenParaOnboarding(suvm: signUpViewModel)
-        }
-        
         if signUpViewModel.role == "Doctor"  {
             DoctorOnboarding(suvm: signUpViewModel)
         }
