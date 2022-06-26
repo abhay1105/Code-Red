@@ -8,13 +8,21 @@
 import SwiftUI
 
 struct CitizenParaOnboarding: View {
+    @ObservedObject var signUpViewModel : SignUpViewModel
+    
+    init(suvm : SignUpViewModel) {
+        signUpViewModel = suvm
+    }
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("Hello, Citizen!")
+            
+            Button(action: {
+                signUpViewModel.register()
+            }, label: {
+                Text("Done")
+            })
+        }
     }
 }
 
-struct CitizenParaOnboarding_Previews: PreviewProvider {
-    static var previews: some View {
-        CitizenParaOnboarding()
-    }
-}

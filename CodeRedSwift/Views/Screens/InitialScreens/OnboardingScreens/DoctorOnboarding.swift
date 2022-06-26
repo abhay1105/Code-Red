@@ -8,13 +8,18 @@
 import SwiftUI
 
 struct DoctorOnboarding: View {
+    @ObservedObject var signUpViewModel : SignUpViewModel
+    init(suvm : SignUpViewModel) {
+        signUpViewModel = suvm
+    }
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("Hello, Doctor!")
+        
+        Button(action: {
+            signUpViewModel.register()
+        }, label: {
+            Text("Done")
+        })
     }
 }
 
-struct DoctorOnboarding_Previews: PreviewProvider {
-    static var previews: some View {
-        DoctorOnboarding()
-    }
-}

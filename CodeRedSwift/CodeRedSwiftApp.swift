@@ -7,7 +7,6 @@
 
 import SwiftUI
 import Firebase
-
 @main
 struct CodeRedSwiftApp: App {
     
@@ -17,9 +16,7 @@ struct CodeRedSwiftApp: App {
     
     var body: some Scene {
         WindowGroup {
-            NavigationView {
-                ContentView()
-            }
+            ContentView()
         }
     }
 }
